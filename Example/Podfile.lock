@@ -1,0 +1,26 @@
+PODS:
+  - TYHTestUtils (0.1.0)
+  - TYHTransAndTTS (0.1.0)
+
+DEPENDENCIES:
+  - TYHTestUtils (from `https://github.com/pencilCool/TYHTestUtils.git`)
+  - TYHTransAndTTS (from `../`)
+
+EXTERNAL SOURCES:
+  TYHTestUtils:
+    :git: https://github.com/pencilCool/TYHTestUtils.git
+  TYHTransAndTTS:
+    :path: "../"
+
+CHECKOUT OPTIONS:
+  TYHTestUtils:
+    :commit: 5df14a754ac39a1dfdcf238dc744c54518e5bb1f
+    :git: https://github.com/pencilCool/TYHTestUtils.git
+
+SPEC CHECKSUMS:
+  TYHTestUtils: 91d7f5dbe500de12f8a5751fa998e6827ac0f480
+  TYHTransAndTTS: b2a21fcf54467024da58df3266ac03d6b9fe36bd
+
+PODFILE CHECKSUM: be896da55c34565c7a646deab524c54e48774fb6
+
+COCOAPODS: 1.12.1

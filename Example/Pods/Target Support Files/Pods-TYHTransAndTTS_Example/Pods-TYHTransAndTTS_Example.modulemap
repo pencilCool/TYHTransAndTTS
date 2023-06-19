@@ -1,0 +1,6 @@
+framework module Pods_TYHTransAndTTS_Example {
+  umbrella header "Pods-TYHTransAndTTS_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

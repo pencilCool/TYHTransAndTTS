@@ -1,0 +1,6 @@
+framework module TYHTransAndTTS {
+  umbrella header "TYHTransAndTTS-umbrella.h"
+
+  export *
+  module * { export * }
+}

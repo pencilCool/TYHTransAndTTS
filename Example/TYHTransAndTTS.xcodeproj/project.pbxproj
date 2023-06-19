@@ -24,6 +24,7 @@
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
 		C18091D04ED1BEDB5C31B169 /* Pods_TYHTransAndTTS_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 835C54B060640F0C4E71928E /* Pods_TYHTransAndTTS_Tests.framework */; };
+		C4C98B352A40AD9700D86B23 /* UIViewController+TYHAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = C4C98B342A40AD9700D86B23 /* UIViewController+TYHAdd.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,8 +40,8 @@
 /* Begin PBXFileReference section */
 		0E7B6FA0476634A587D2ADB0 /* Pods-TYHTransAndTTS_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TYHTransAndTTS_Tests.debug.xcconfig"; path = "Target Support Files/Pods-TYHTransAndTTS_Tests/Pods-TYHTransAndTTS_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		483C1E8ED5674C6E9818F36C /* Pods-TYHTransAndTTS_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TYHTransAndTTS_Example.release.xcconfig"; path = "Target Support Files/Pods-TYHTransAndTTS_Example/Pods-TYHTransAndTTS_Example.release.xcconfig"; sourceTree = "<group>"; };
-		4F647C315A9998328C34F6FF /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		5FCDA3A9BA575E5388A5C88C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		4F647C315A9998328C34F6FF /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		5FCDA3A9BA575E5388A5C88C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* TYHTransAndTTS_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TYHTransAndTTS_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -65,8 +66,10 @@
 		835C54B060640F0C4E71928E /* Pods_TYHTransAndTTS_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TYHTransAndTTS_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8DBC45FC869549AC2A2D94B0 /* Pods_TYHTransAndTTS_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TYHTransAndTTS_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4C98B332A40AD9700D86B23 /* UIViewController+TYHAdd.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIViewController+TYHAdd.h"; sourceTree = "<group>"; };
+		C4C98B342A40AD9700D86B23 /* UIViewController+TYHAdd.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+TYHAdd.m"; sourceTree = "<group>"; };
 		E88DD0590DF9800FABDC2C00 /* Pods-TYHTransAndTTS_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TYHTransAndTTS_Example.debug.xcconfig"; path = "Target Support Files/Pods-TYHTransAndTTS_Example/Pods-TYHTransAndTTS_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		F809825A1234E7505878E447 /* TYHTransAndTTS.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = TYHTransAndTTS.podspec; path = ../TYHTransAndTTS.podspec; sourceTree = "<group>"; };
+		F809825A1234E7505878E447 /* TYHTransAndTTS.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = TYHTransAndTTS.podspec; path = ../TYHTransAndTTS.podspec; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,7 +106,6 @@
 				0E7B6FA0476634A587D2ADB0 /* Pods-TYHTransAndTTS_Tests.debug.xcconfig */,
 				6F8AD855662FB6C7E8FA7FED /* Pods-TYHTransAndTTS_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -149,6 +151,8 @@
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
 				6003F5A5195388D20070C39A /* TYHViewController.h */,
 				6003F5A6195388D20070C39A /* TYHViewController.m */,
+				C4C98B332A40AD9700D86B23 /* UIViewController+TYHAdd.h */,
+				C4C98B342A40AD9700D86B23 /* UIViewController+TYHAdd.m */,
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
@@ -369,6 +373,7 @@
 			files = (
 				6003F59E195388D20070C39A /* TYHAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* TYHViewController.m in Sources */,
+				C4C98B352A40AD9700D86B23 /* UIViewController+TYHAdd.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
