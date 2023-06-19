@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '11.0'
+
+target 'TYHTransAndTTS_Example' do
+  pod 'TYHTransAndTTS', :path => '../'
+  pod 'TYHTestUtils',:git=>'https://github.com/pencilCool/TYHTestUtils.git'
+  target 'TYHTransAndTTS_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
