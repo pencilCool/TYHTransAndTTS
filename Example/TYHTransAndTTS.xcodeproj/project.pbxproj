@@ -252,6 +252,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = pencilCool;
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = WN86XXW7R7;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -502,6 +505,7 @@
 			baseConfigurationReference = E88DD0590DF9800FABDC2C00 /* Pods-TYHTransAndTTS_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = WN86XXW7R7;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TYHTransAndTTS/TYHTransAndTTS-Prefix.pch";
 				INFOPLIST_FILE = "TYHTransAndTTS/TYHTransAndTTS-Info.plist";
@@ -519,6 +523,7 @@
 			baseConfigurationReference = 483C1E8ED5674C6E9818F36C /* Pods-TYHTransAndTTS_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = WN86XXW7R7;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TYHTransAndTTS/TYHTransAndTTS-Prefix.pch";
 				INFOPLIST_FILE = "TYHTransAndTTS/TYHTransAndTTS-Info.plist";
