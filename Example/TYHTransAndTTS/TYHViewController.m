@@ -7,6 +7,7 @@
 //
 
 #import "TYHViewController.h"
+#include <dlfcn.h>
 //@import TranslationUIServices;
 //#import <TranslationUIServices/LTUITranslationViewController.h>
 @interface TYHViewController ()
@@ -22,6 +23,10 @@
     // LTUITranslationViewController
     // https://github.com/lechium/iPhone_OS_15.5/blob/0f4def7da3cad33a6ea5a4224f4ec3526f3e73f8/System/Library/PrivateFrameworks/TranslationUIServices/LTUITranslationViewController.h#L14
     [self addCell:@"Hook LTUITranslationViewController" action:^{
+        void *lib = dlopen("/System/Library/PrivateFrameworks/TranslationUIServices.framework/TranslationUIServices", RTLD_LAZY);
+        if (lib) {
+            
+        }
         Class cls = NSClassFromString(@"LTUITranslationViewController");
         UIViewController *vc = [cls new];
         NSString *pureText = @"Suppose you want to build a computer network, one that has the potential to grow to global proportions and to support applications as diverse as teleconferencing, video on demand, electronic commerce, distributed computing, and digital libraries. What available technologies would serve as the underlying building blocks, and what kind of software architecture would you design to integrate these building blocks into an effective communication service? Answering this question is the overriding goal of this book—to describe the available building materials and then to show how they can be used to construct a network from the ground up.";
