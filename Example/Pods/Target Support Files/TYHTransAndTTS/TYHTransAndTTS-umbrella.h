@@ -10,6 +10,7 @@
 #endif
 #endif
 
+#import "TYHTransAndTTS.h"
 
 FOUNDATION_EXPORT double TYHTransAndTTSVersionNumber;
 FOUNDATION_EXPORT const unsigned char TYHTransAndTTSVersionString[];

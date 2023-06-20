@@ -7,44 +7,45 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		012E67D9C3E24C1EE4533449F1BD9918 /* TYHTransAndTTS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FFD3B36E733E96F5A62FD1FFD51E95E6 /* TYHTransAndTTS-dummy.m */; };
 		01853909BFD83D69724AD200A183D027 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		31367D7D7CF18ED226CE4EE5068F102B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		4719FF7BA51253761E653BDD1135E850 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = D76EAE77AB429A666BCECFEDAEA1AF0E /* ReplaceMe.m */; };
+		51319FEFD5E204E0D3B37508A1BE1E5E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		5FE4DFFE835757072858A8B3EE3C05A7 /* TYHTestUtils-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 414D4F24176E1CAFD6B041EF3AC14704 /* TYHTestUtils-dummy.m */; };
+		66D8C40D0D04DDF1F998D7296E665915 /* TYHTransAndTTS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D024BDF71176CA1E1BE4083580D86CB2 /* TYHTransAndTTS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6BD69988CED85F456BB2CD6C531BD271 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		7A1E4C2AA50EEA3E3244F66AEAA6B0B6 /* BaseTestActionTableVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 991D1CF550EFB62FDE156B2E3D362B6B /* BaseTestActionTableVC.m */; };
 		817F803953DBD2FB111C56D3D1775E9E /* Pods-TYHTransAndTTS_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B4907E0958C26158D9DBB9FEAFB36575 /* Pods-TYHTransAndTTS_Example-dummy.m */; };
 		920160F6241B50FA37DD5744B4936C9A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		A06CA29928EDBEB002F9B628BD18D79E /* TYHTransAndTTS.h in Headers */ = {isa = PBXBuildFile; fileRef = AB0ACF9BBA4B080B86B073B0C1EA6130 /* TYHTransAndTTS.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A77FACAB8FDDFEE987822028A69B85BC /* Pods-TYHTransAndTTS_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 09956CEFF4086C8B1AF82ABA3C014C10 /* Pods-TYHTransAndTTS_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AB717A07803CEB996B957CF1290DB75D /* Pods-TYHTransAndTTS_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CFA0220C2524B0D2B0D477D86326CE33 /* Pods-TYHTransAndTTS_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C66ECBEE077B4CBCE16858771F717239 /* TYHTransAndTTS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EE336C2F3D45299570BC2D0B7A10463E /* TYHTransAndTTS-dummy.m */; };
+		B2D84293C6DD8D4FB37F8D5EFB2D46A8 /* TYHTransAndTTS.m in Sources */ = {isa = PBXBuildFile; fileRef = 72497601E8303BB314D08B6EA594A804 /* TYHTransAndTTS.m */; };
 		CC7C60F618E5B31EBED08810994E0B58 /* TYHTestUtils-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 95F557C6DF5507992DF2AD707A5F2B06 /* TYHTestUtils-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E46B2926245C6E5D8DE4536608A75B6C /* BaseTestActionTableVC.h in Headers */ = {isa = PBXBuildFile; fileRef = E147396F5AFAEF32CB3AAEC31A025C45 /* BaseTestActionTableVC.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EA0A003A935BD9DA55ED130CE108450F /* Pods-TYHTransAndTTS_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F2BA5E5923DF0F35C97173FDD4EE1F2E /* Pods-TYHTransAndTTS_Tests-dummy.m */; };
-		EFAB13343D3DC75C40771DCBB3434A59 /* TYHTransAndTTS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A19879E817391BC4D9052B01CFC3C06E /* TYHTransAndTTS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		31B31E1D32D999EB7E904AC14517FE2C /* PBXContainerItemProxy */ = {
+		7B0857F7FC6DC70FC3EB0E0170B84B9A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5FA019264226AC1EDE7198FB0D12969C;
+			remoteInfo = TYHTestUtils;
+		};
+		B27FDCFF4AAA5F13B6617E64480C8CBB /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 76F9913F47BE952E2D201CFCFEE16B5A;
 			remoteInfo = "Pods-TYHTransAndTTS_Example";
 		};
-		99387636A01B520925BA14D6FB2E9319 /* PBXContainerItemProxy */ = {
+		B2AF9B5D418A601A9040FF5F05C33875 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = DA7FDD49EA6387885F75B529436AFBDE;
 			remoteInfo = TYHTransAndTTS;
-		};
-		DFAFF0ECB9132B003A0244B402E3D735 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 5FA019264226AC1EDE7198FB0D12969C;
-			remoteInfo = TYHTestUtils;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -52,22 +53,22 @@
 		09956CEFF4086C8B1AF82ABA3C014C10 /* Pods-TYHTransAndTTS_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TYHTransAndTTS_Example-umbrella.h"; sourceTree = "<group>"; };
 		11DB0A40FF6DB5EB39026653573C5577 /* Pods-TYHTransAndTTS_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TYHTransAndTTS_Tests.modulemap"; sourceTree = "<group>"; };
 		19A7F1FB556B978546DF689D26EFCB7D /* Pods-TYHTransAndTTS_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TYHTransAndTTS_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		1EFE977A2B33789D4278B814FC0BE4CD /* TYHTransAndTTS-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "TYHTransAndTTS-Info.plist"; sourceTree = "<group>"; };
 		2A5184BFB296B5B39B920127D3D201B1 /* Pods-TYHTransAndTTS_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TYHTransAndTTS_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		2D6C03177E6C51C1D30985D12D278FF6 /* Pods-TYHTransAndTTS_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-TYHTransAndTTS_Example"; path = Pods_TYHTransAndTTS_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2DD5214BDF7AADFED60F2A9915813ABE /* Pods-TYHTransAndTTS_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TYHTransAndTTS_Example-frameworks.sh"; sourceTree = "<group>"; };
-		2FE9A9DE3CA4CE8451CD73FE6552DDD9 /* TYHTransAndTTS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TYHTransAndTTS.debug.xcconfig; sourceTree = "<group>"; };
 		35606321BD18D0564E8E686BFDFC02AC /* TYHTestUtils-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "TYHTestUtils-Info.plist"; sourceTree = "<group>"; };
 		414D4F24176E1CAFD6B041EF3AC14704 /* TYHTestUtils-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TYHTestUtils-dummy.m"; sourceTree = "<group>"; };
 		423E9E6A40D531D3A6E045D863457D25 /* Pods-TYHTransAndTTS_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TYHTransAndTTS_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		52357DF8EC37B5A488AD4BDCAF3FAB1A /* Pods-TYHTransAndTTS_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TYHTransAndTTS_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		5D444FEAA5D5D6B6E4242A5490B47852 /* TYHTransAndTTS-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TYHTransAndTTS-prefix.pch"; sourceTree = "<group>"; };
+		72497601E8303BB314D08B6EA594A804 /* TYHTransAndTTS.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TYHTransAndTTS.m; path = TYHTransAndTTS/Classes/TYHTransAndTTS.m; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		737B56CE05E5F2DAFF1A9DD5B8F01B40 /* TYHTransAndTTS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TYHTransAndTTS.release.xcconfig; sourceTree = "<group>"; };
+		744F3B8362A4240DEE7D87245DF5A979 /* TYHTransAndTTS-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "TYHTransAndTTS-Info.plist"; sourceTree = "<group>"; };
 		756434C2B475E7043A471F57E91F14A1 /* TYHTestUtils.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = TYHTestUtils.modulemap; sourceTree = "<group>"; };
-		76DA354B821D15EBAB887539E528717D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		7D53892F5C4B83D21270B27B9BE39B13 /* TYHTestUtils.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TYHTestUtils.release.xcconfig; sourceTree = "<group>"; };
-		7EF533F2562E1F6C51ABA86B253DB247 /* TYHTransAndTTS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = TYHTransAndTTS.modulemap; sourceTree = "<group>"; };
 		804F845C69BAD085E2FAD593458E1EBB /* TYHTestUtils */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = TYHTestUtils; path = TYHTestUtils.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		832A2AD6B88E3E14707B358243387F0A /* TYHTransAndTTS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TYHTransAndTTS.debug.xcconfig; sourceTree = "<group>"; };
+		8514CE0FCBE3EFC16941B2B4AD3F4B49 /* TYHTransAndTTS-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TYHTransAndTTS-prefix.pch"; sourceTree = "<group>"; };
 		8F451E08F628822A8FC9635C7A8F8B53 /* TYHTransAndTTS */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = TYHTransAndTTS; path = TYHTransAndTTS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9214C187F0EB648A404D6B52A853AA72 /* TYHTestUtils-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TYHTestUtils-prefix.pch"; sourceTree = "<group>"; };
 		9312B052633E8F7B6D3B16CED3F5BD2B /* Pods-TYHTransAndTTS_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TYHTransAndTTS_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
@@ -76,22 +77,23 @@
 		991D1CF550EFB62FDE156B2E3D362B6B /* BaseTestActionTableVC.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BaseTestActionTableVC.m; path = TYHTestUtils/Classes/BaseTestActionTableVC.m; sourceTree = "<group>"; };
 		9BED8C63138C2D8E13DDA20717AF6590 /* Pods-TYHTransAndTTS_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TYHTransAndTTS_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9EEA593130F1154DE2814FDE93F2E4A9 /* TYHTransAndTTS.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = TYHTransAndTTS.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A047D0FAE264EDCA57DE3B85A9F54A27 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		A05367912077860DAA4F5E34545A7365 /* Pods-TYHTransAndTTS_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TYHTransAndTTS_Example.release.xcconfig"; sourceTree = "<group>"; };
-		A19879E817391BC4D9052B01CFC3C06E /* TYHTransAndTTS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TYHTransAndTTS-umbrella.h"; sourceTree = "<group>"; };
-		B107E0B7D14E6654E495C9F3C9EC5F13 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		AB0ACF9BBA4B080B86B073B0C1EA6130 /* TYHTransAndTTS.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TYHTransAndTTS.h; path = TYHTransAndTTS/Classes/TYHTransAndTTS.h; sourceTree = "<group>"; };
+		ADC0D8F14D5E9ABC8BDCC9EC6BEB2D32 /* TYHTransAndTTS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = TYHTransAndTTS.modulemap; sourceTree = "<group>"; };
 		B4907E0958C26158D9DBB9FEAFB36575 /* Pods-TYHTransAndTTS_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TYHTransAndTTS_Example-dummy.m"; sourceTree = "<group>"; };
 		CBF579574D6AF73D49083EA53341B92F /* Pods-TYHTransAndTTS_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-TYHTransAndTTS_Tests"; path = Pods_TYHTransAndTTS_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CFA0220C2524B0D2B0D477D86326CE33 /* Pods-TYHTransAndTTS_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TYHTransAndTTS_Tests-umbrella.h"; sourceTree = "<group>"; };
-		D76EAE77AB429A666BCECFEDAEA1AF0E /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = TYHTransAndTTS/Classes/ReplaceMe.m; sourceTree = "<group>"; };
+		D024BDF71176CA1E1BE4083580D86CB2 /* TYHTransAndTTS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TYHTransAndTTS-umbrella.h"; sourceTree = "<group>"; };
+		D6680A0BBDFA1889CF75EE3487A52A3F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		E147396F5AFAEF32CB3AAEC31A025C45 /* BaseTestActionTableVC.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BaseTestActionTableVC.h; path = TYHTestUtils/Classes/BaseTestActionTableVC.h; sourceTree = "<group>"; };
-		E278BE1F35C0778A538F31389FF36531 /* TYHTransAndTTS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TYHTransAndTTS.release.xcconfig; sourceTree = "<group>"; };
 		E366F4EBCEC17F01B856B8C5C83C3A59 /* Pods-TYHTransAndTTS_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TYHTransAndTTS_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		EE336C2F3D45299570BC2D0B7A10463E /* TYHTransAndTTS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TYHTransAndTTS-dummy.m"; sourceTree = "<group>"; };
+		EB9F30F9F2846E71D35AE14C43BC58A0 /* TYHTransAndTTS.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = TYHTransAndTTS.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		F1E3350F8C9179DA94B3A738F82C07AE /* Pods-TYHTransAndTTS_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TYHTransAndTTS_Example-Info.plist"; sourceTree = "<group>"; };
 		F2BA5E5923DF0F35C97173FDD4EE1F2E /* Pods-TYHTransAndTTS_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TYHTransAndTTS_Tests-dummy.m"; sourceTree = "<group>"; };
 		F8EB5B948E88F9BD7140454409136CF4 /* Pods-TYHTransAndTTS_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TYHTransAndTTS_Tests-Info.plist"; sourceTree = "<group>"; };
 		FA731CDB8EBC91E4ED1854C119F8A33F /* Pods-TYHTransAndTTS_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TYHTransAndTTS_Example.modulemap"; sourceTree = "<group>"; };
+		FFD3B36E733E96F5A62FD1FFD51E95E6 /* TYHTransAndTTS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TYHTransAndTTS-dummy.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,11 +113,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9918E9DD98A39F58CF2B066F7F93B0D6 /* Frameworks */ = {
+		8B6E0C4180B2B24D51B94328408AD933 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				31367D7D7CF18ED226CE4EE5068F102B /* Foundation.framework in Frameworks */,
+				51319FEFD5E204E0D3B37508A1BE1E5E /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -130,27 +132,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		061D2A4D0AA95B964B3DF5D7B37A67FD /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				B107E0B7D14E6654E495C9F3C9EC5F13 /* LICENSE */,
-				76DA354B821D15EBAB887539E528717D /* README.md */,
-				9EEA593130F1154DE2814FDE93F2E4A9 /* TYHTransAndTTS.podspec */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
-		0EEE43703DF2A01AA78D448547981A14 /* TYHTransAndTTS */ = {
-			isa = PBXGroup;
-			children = (
-				D76EAE77AB429A666BCECFEDAEA1AF0E /* ReplaceMe.m */,
-				061D2A4D0AA95B964B3DF5D7B37A67FD /* Pod */,
-				56348F547F856B6308070140498956D1 /* Support Files */,
-			);
-			name = TYHTransAndTTS;
-			path = ../..;
-			sourceTree = "<group>";
-		};
 		305E57FEA914738E1F26DF041D294787 /* TYHTestUtils */ = {
 			isa = PBXGroup;
 			children = (
@@ -179,19 +160,16 @@
 			path = "Target Support Files/Pods-TYHTransAndTTS_Example";
 			sourceTree = "<group>";
 		};
-		56348F547F856B6308070140498956D1 /* Support Files */ = {
+		3461F03C5C3FDFD98D67D04452C84730 /* TYHTransAndTTS */ = {
 			isa = PBXGroup;
 			children = (
-				7EF533F2562E1F6C51ABA86B253DB247 /* TYHTransAndTTS.modulemap */,
-				EE336C2F3D45299570BC2D0B7A10463E /* TYHTransAndTTS-dummy.m */,
-				1EFE977A2B33789D4278B814FC0BE4CD /* TYHTransAndTTS-Info.plist */,
-				5D444FEAA5D5D6B6E4242A5490B47852 /* TYHTransAndTTS-prefix.pch */,
-				A19879E817391BC4D9052B01CFC3C06E /* TYHTransAndTTS-umbrella.h */,
-				2FE9A9DE3CA4CE8451CD73FE6552DDD9 /* TYHTransAndTTS.debug.xcconfig */,
-				E278BE1F35C0778A538F31389FF36531 /* TYHTransAndTTS.release.xcconfig */,
+				AB0ACF9BBA4B080B86B073B0C1EA6130 /* TYHTransAndTTS.h */,
+				72497601E8303BB314D08B6EA594A804 /* TYHTransAndTTS.m */,
+				5F0D4A9A0635EF56A0D2F7F15BDCD339 /* Pod */,
+				85C632B086B1FE690B57EE9645478EC8 /* Support Files */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/TYHTransAndTTS";
+			name = TYHTransAndTTS;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
@@ -200,6 +178,24 @@
 				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
 			);
 			name = iOS;
+			sourceTree = "<group>";
+		};
+		5B06C930BC8BEFCC268E47697BD73526 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3461F03C5C3FDFD98D67D04452C84730 /* TYHTransAndTTS */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		5F0D4A9A0635EF56A0D2F7F15BDCD339 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				D6680A0BBDFA1889CF75EE3487A52A3F /* LICENSE */,
+				A047D0FAE264EDCA57DE3B85A9F54A27 /* README.md */,
+				EB9F30F9F2846E71D35AE14C43BC58A0 /* TYHTransAndTTS.podspec */,
+			);
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		6CD642E863417C4176CFD06D2FFF011E /* Support Files */ = {
@@ -215,6 +211,21 @@
 			);
 			name = "Support Files";
 			path = "../Target Support Files/TYHTestUtils";
+			sourceTree = "<group>";
+		};
+		85C632B086B1FE690B57EE9645478EC8 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				ADC0D8F14D5E9ABC8BDCC9EC6BEB2D32 /* TYHTransAndTTS.modulemap */,
+				FFD3B36E733E96F5A62FD1FFD51E95E6 /* TYHTransAndTTS-dummy.m */,
+				744F3B8362A4240DEE7D87245DF5A979 /* TYHTransAndTTS-Info.plist */,
+				8514CE0FCBE3EFC16941B2B4AD3F4B49 /* TYHTransAndTTS-prefix.pch */,
+				D024BDF71176CA1E1BE4083580D86CB2 /* TYHTransAndTTS-umbrella.h */,
+				832A2AD6B88E3E14707B358243387F0A /* TYHTransAndTTS.debug.xcconfig */,
+				737B56CE05E5F2DAFF1A9DD5B8F01B40 /* TYHTransAndTTS.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/TYHTransAndTTS";
 			sourceTree = "<group>";
 		};
 		8B958A8EAC31D28EB1C952DF77739B10 /* Pods */ = {
@@ -249,7 +260,7 @@
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				D6B652F3AAC4297D5732506EAA818011 /* Development Pods */,
+				5B06C930BC8BEFCC268E47697BD73526 /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
 				8B958A8EAC31D28EB1C952DF77739B10 /* Pods */,
 				BCD45A1A6A2BCEE367875A415D068E60 /* Products */,
@@ -263,14 +274,6 @@
 				578452D2E740E91742655AC8F1636D1F /* iOS */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		D6B652F3AAC4297D5732506EAA818011 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				0EEE43703DF2A01AA78D448547981A14 /* TYHTransAndTTS */,
-			);
-			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		DFDEF254BAC225CD5A79414BCF955026 /* Pods-TYHTransAndTTS_Tests */ = {
@@ -301,14 +304,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		25795B5A36699DAAC05AFAE734BD2D2F /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				EFAB13343D3DC75C40771DCBB3434A59 /* TYHTransAndTTS-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		6FA8DF19E0166B9110774DDE73B80508 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -322,6 +317,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				A77FACAB8FDDFEE987822028A69B85BC /* Pods-TYHTransAndTTS_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABEFB078B7785152ED902E84CC4C20E2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A06CA29928EDBEB002F9B628BD18D79E /* TYHTransAndTTS.h in Headers */,
+				66D8C40D0D04DDF1F998D7296E665915 /* TYHTransAndTTS-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -358,8 +362,8 @@
 			buildRules = (
 			);
 			dependencies = (
-				170EDAB16BA27560D45A086E0682A113 /* PBXTargetDependency */,
-				B62D11121D96D11CA603C93479BF9B1F /* PBXTargetDependency */,
+				3D5A43120758200C6755068583234170 /* PBXTargetDependency */,
+				3B03EF1741E9B8C07344E058C5E14B12 /* PBXTargetDependency */,
 			);
 			name = "Pods-TYHTransAndTTS_Example";
 			productName = Pods_TYHTransAndTTS_Example;
@@ -378,7 +382,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				3F5784A593B7753AE60C6339498B2C63 /* PBXTargetDependency */,
+				6061F60539A0D50F6CADABC6CD3980A4 /* PBXTargetDependency */,
 			);
 			name = "Pods-TYHTransAndTTS_Tests";
 			productName = Pods_TYHTransAndTTS_Tests;
@@ -387,12 +391,12 @@
 		};
 		DA7FDD49EA6387885F75B529436AFBDE /* TYHTransAndTTS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 09B248E29D070536E2C15758FC6AFE55 /* Build configuration list for PBXNativeTarget "TYHTransAndTTS" */;
+			buildConfigurationList = DC489E0BEE04163EAA3AD02C335681C5 /* Build configuration list for PBXNativeTarget "TYHTransAndTTS" */;
 			buildPhases = (
-				25795B5A36699DAAC05AFAE734BD2D2F /* Headers */,
-				1F0FD47EA65802AF961E7291DBD70EC8 /* Sources */,
-				9918E9DD98A39F58CF2B066F7F93B0D6 /* Frameworks */,
-				8D9303CA6CB51A55D4575B2CBF9F4E4B /* Resources */,
+				ABEFB078B7785152ED902E84CC4C20E2 /* Headers */,
+				58482D9C92475B8417AB7210BD998644 /* Sources */,
+				8B6E0C4180B2B24D51B94328408AD933 /* Frameworks */,
+				5F7B3833523776AD95E45DBAC4D9BA97 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -448,7 +452,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8D9303CA6CB51A55D4575B2CBF9F4E4B /* Resources */ = {
+		5F7B3833523776AD95E45DBAC4D9BA97 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -465,20 +469,20 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		1F0FD47EA65802AF961E7291DBD70EC8 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				4719FF7BA51253761E653BDD1135E850 /* ReplaceMe.m in Sources */,
-				C66ECBEE077B4CBCE16858771F717239 /* TYHTransAndTTS-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		4E0469A9D2D76B927BCB7937B51A0153 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				817F803953DBD2FB111C56D3D1775E9E /* Pods-TYHTransAndTTS_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		58482D9C92475B8417AB7210BD998644 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2D84293C6DD8D4FB37F8D5EFB2D46A8 /* TYHTransAndTTS.m in Sources */,
+				012E67D9C3E24C1EE4533449F1BD9918 /* TYHTransAndTTS-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -502,59 +506,27 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		170EDAB16BA27560D45A086E0682A113 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = TYHTestUtils;
-			target = 5FA019264226AC1EDE7198FB0D12969C /* TYHTestUtils */;
-			targetProxy = DFAFF0ECB9132B003A0244B402E3D735 /* PBXContainerItemProxy */;
-		};
-		3F5784A593B7753AE60C6339498B2C63 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Pods-TYHTransAndTTS_Example";
-			target = 76F9913F47BE952E2D201CFCFEE16B5A /* Pods-TYHTransAndTTS_Example */;
-			targetProxy = 31B31E1D32D999EB7E904AC14517FE2C /* PBXContainerItemProxy */;
-		};
-		B62D11121D96D11CA603C93479BF9B1F /* PBXTargetDependency */ = {
+		3B03EF1741E9B8C07344E058C5E14B12 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = TYHTransAndTTS;
 			target = DA7FDD49EA6387885F75B529436AFBDE /* TYHTransAndTTS */;
-			targetProxy = 99387636A01B520925BA14D6FB2E9319 /* PBXContainerItemProxy */;
+			targetProxy = B2AF9B5D418A601A9040FF5F05C33875 /* PBXContainerItemProxy */;
+		};
+		3D5A43120758200C6755068583234170 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TYHTestUtils;
+			target = 5FA019264226AC1EDE7198FB0D12969C /* TYHTestUtils */;
+			targetProxy = 7B0857F7FC6DC70FC3EB0E0170B84B9A /* PBXContainerItemProxy */;
+		};
+		6061F60539A0D50F6CADABC6CD3980A4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-TYHTransAndTTS_Example";
+			target = 76F9913F47BE952E2D201CFCFEE16B5A /* Pods-TYHTransAndTTS_Example */;
+			targetProxy = B27FDCFF4AAA5F13B6617E64480C8CBB /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		1C8625A612EF01355C2DE4DD0DF76C67 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2FE9A9DE3CA4CE8451CD73FE6552DDD9 /* TYHTransAndTTS.debug.xcconfig */;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/TYHTransAndTTS/TYHTransAndTTS-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/TYHTransAndTTS/TYHTransAndTTS-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/TYHTransAndTTS/TYHTransAndTTS.modulemap";
-				PRODUCT_MODULE_NAME = TYHTransAndTTS;
-				PRODUCT_NAME = TYHTransAndTTS;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		26A0924DDD1FE01B341A24760E52C7CF /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = E366F4EBCEC17F01B856B8C5C83C3A59 /* Pods-TYHTransAndTTS_Tests.release.xcconfig */;
@@ -655,39 +627,6 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
-		};
-		4A4B7C1A29555DBB25B8391EE1542913 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = E278BE1F35C0778A538F31389FF36531 /* TYHTransAndTTS.release.xcconfig */;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/TYHTransAndTTS/TYHTransAndTTS-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/TYHTransAndTTS/TYHTransAndTTS-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/TYHTransAndTTS/TYHTransAndTTS.modulemap";
-				PRODUCT_MODULE_NAME = TYHTransAndTTS;
-				PRODUCT_NAME = TYHTransAndTTS;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
 		};
 		77533632FB0F87776A3502502AAD37E5 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -819,6 +758,38 @@
 			};
 			name = Release;
 		};
+		9F51FB1CC9B592E6EF2E8D9B8CC14A60 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 832A2AD6B88E3E14707B358243387F0A /* TYHTransAndTTS.debug.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/TYHTransAndTTS/TYHTransAndTTS-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TYHTransAndTTS/TYHTransAndTTS-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/TYHTransAndTTS/TYHTransAndTTS.modulemap";
+				PRODUCT_MODULE_NAME = TYHTransAndTTS;
+				PRODUCT_NAME = TYHTransAndTTS;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		B4EFE046ACF8F37157F6E322C7FCFC28 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -885,6 +856,39 @@
 			};
 			name = Debug;
 		};
+		E381C13B1EC13FB89B16FA11B0F8C4DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 737B56CE05E5F2DAFF1A9DD5B8F01B40 /* TYHTransAndTTS.release.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/TYHTransAndTTS/TYHTransAndTTS-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TYHTransAndTTS/TYHTransAndTTS-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/TYHTransAndTTS/TYHTransAndTTS.modulemap";
+				PRODUCT_MODULE_NAME = TYHTransAndTTS;
+				PRODUCT_NAME = TYHTransAndTTS;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		ED26628BEFD8159598D8345EF81DD449 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 423E9E6A40D531D3A6E045D863457D25 /* Pods-TYHTransAndTTS_Tests.debug.xcconfig */;
@@ -922,15 +926,6 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		09B248E29D070536E2C15758FC6AFE55 /* Build configuration list for PBXNativeTarget "TYHTransAndTTS" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				1C8625A612EF01355C2DE4DD0DF76C67 /* Debug */,
-				4A4B7C1A29555DBB25B8391EE1542913 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		160E7C5931C355BC888B72E92C30F663 /* Build configuration list for PBXNativeTarget "Pods-TYHTransAndTTS_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -963,6 +958,15 @@
 			buildConfigurations = (
 				2D47058050F02BFB0E898A4369390E28 /* Debug */,
 				9E794D5C1BF490F045D4F08AE828AAB7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC489E0BEE04163EAA3AD02C335681C5 /* Build configuration list for PBXNativeTarget "TYHTransAndTTS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F51FB1CC9B592E6EF2E8D9B8CC14A60 /* Debug */,
+				E381C13B1EC13FB89B16FA11B0F8C4DB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
